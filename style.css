@@ -1,0 +1,49 @@
+body {
+    margin: 0px;
+}
+
+.background {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 100vh;
+}
+
+.showCode {
+    position: absolute;
+    top: 150px;
+    font-size: 48px;
+    font-weight: bold;
+    opacity: 0.5;
+}
+
+.colorChanger {
+    width: 200px;
+    height: 40px;
+    z-index: 1;
+    background-color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 200px;
+}
+
+.colorChanger:hover {
+    box-shadow: 3px 3px 5px 4px rgba(125, 125, 125, 0.05);
+    transition: 100ms ease;
+}
+
+.logs {
+    position: absolute;
+    display: flex;
+
+    top: 0px;
+    left: 0px;
+}
+
+.log {
+    width: 30px;
+    height: 100vh;
+}
